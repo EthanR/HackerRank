@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MultiplesOfThreeAndFive
 {
-    class Program
+    public class Program
     {
         static void Main(String[] args)
         {
@@ -24,7 +21,7 @@ namespace MultiplesOfThreeAndFive
             }
         }
 
-        static long GetSum(long upperBound)
+        public static long GetSum(long upperBound)
         {
             long numberOfMultiplesOfThree = (upperBound - 1) / 3;
             long numberOfMultiplesOfFive = (upperBound - 1) / 5;
